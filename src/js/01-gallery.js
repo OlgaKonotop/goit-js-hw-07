@@ -56,7 +56,7 @@ function onCloseEsc(e) {
   if (e.code === "Escape") {
     instance.close();
     onRemoveKeyListener();
-    console.log(e.code);
+    //console.log(e.code);
   }
 }
 
